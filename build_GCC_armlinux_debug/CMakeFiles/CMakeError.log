@@ -1,0 +1,72 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/ProgramFiles/intelFPGA/18.1/embedded/host_tools/gnu/make/H-x86_64-mingw32/bin/make.exe -f Makefile cmTC_6bdb3/fast && D:/ProgramFiles/intelFPGA/18.1/embedded/host_tools/gnu/make/H-x86_64-mingw32/bin/make.exe  -f CMakeFiles/cmTC_6bdb3.dir/build.make CMakeFiles/cmTC_6bdb3.dir/build
+make.exe[1]: Entering directory `D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bdb3.dir/CMakeCCompilerABI.c.o
+D:/ProgramFiles/intelFPGA/18.1/embedded/ds-5/sw/gcc/bin/arm-linux-gnueabihf-gcc.exe   -v -o CMakeFiles/cmTC_6bdb3.dir/CMakeCCompilerABI.c.o -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c"
+arm-linux-gnueabihf-gcc.exe: error: C:/Program: No such file or directory
+arm-linux-gnueabihf-gcc.exe: error: Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c: No such file or directory
+Using built-in specs.
+COLLECT_GCC=D:\ProgramFiles\intelFPGA\18.1\embedded\ds-5\sw\gcc\bin\arm-linux-gnueabihf-gcc.exe
+Target: arm-linux-gnueabihf
+Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.8-2014.04/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --with-float=hard
+Thread model: posix
+gcc version 4.8.3 20140401 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04) 
+Linking C executable cmTC_6bdb3
+D:/ProgramFiles/intelFPGA/18.1/embedded/ds-5/sw/gcc/bin/arm-linux-gnueabihf-gcc.exe  -v -rdynamic "CMakeFiles/cmTC_6bdb3.dir/CMakeCCompilerABI.c.o"  -o cmTC_6bdb3 
+arm-linux-gnueabihf-gcc.exe: error: CMakeFiles/cmTC_6bdb3.dir/CMakeCCompilerABI.c.o : No such file or directory
+Using built-in specs.
+COLLECT_GCC=D:\ProgramFiles\intelFPGA\18.1\embedded\ds-5\sw\gcc\bin\arm-linux-gnueabihf-gcc.exe
+COLLECT_LTO_WRAPPER=d:/programfiles/intelfpga/18.1/embedded/ds-5/sw/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/4.8.3/lto-wrapper.exe
+Target: arm-linux-gnueabihf
+Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.8-2014.04/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --with-float=hard
+Thread model: posix
+gcc version 4.8.3 20140401 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04) 
+make.exe[1]: Leaving directory `D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp'
+
+
+Cannot copy output executable
+  ''
+to destination specified by COPY_FILE:
+  'D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/3.21.3/CMakeDetermineCompilerABI_C.bin'
+Unable to find the executable at any of:
+  D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp/cmTC_6bdb3
+  D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp/Debug/cmTC_6bdb3
+  D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp/Development/cmTC_6bdb3
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/ProgramFiles/intelFPGA/18.1/embedded/host_tools/gnu/make/H-x86_64-mingw32/bin/make.exe -f Makefile cmTC_706b0/fast && D:/ProgramFiles/intelFPGA/18.1/embedded/host_tools/gnu/make/H-x86_64-mingw32/bin/make.exe  -f CMakeFiles/cmTC_706b0.dir/build.make CMakeFiles/cmTC_706b0.dir/build
+make.exe[1]: Entering directory `D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_706b0.dir/CMakeCXXCompilerABI.cpp.o
+D:/ProgramFiles/intelFPGA/18.1/embedded/ds-5/sw/gcc/bin/arm-linux-gnueabihf-g++.exe   -v -o CMakeFiles/cmTC_706b0.dir/CMakeCXXCompilerABI.cpp.o -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+arm-linux-gnueabihf-g++.exe: error: C:/Program: No such file or directory
+arm-linux-gnueabihf-g++.exe: error: Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp: No such file or directory
+Using built-in specs.
+COLLECT_GCC=D:\ProgramFiles\intelFPGA\18.1\embedded\ds-5\sw\gcc\bin\arm-linux-gnueabihf-g++.exe
+Target: arm-linux-gnueabihf
+Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.8-2014.04/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --with-float=hard
+Thread model: posix
+gcc version 4.8.3 20140401 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04) 
+Linking CXX executable cmTC_706b0
+D:/ProgramFiles/intelFPGA/18.1/embedded/ds-5/sw/gcc/bin/arm-linux-gnueabihf-g++.exe  -v -rdynamic "CMakeFiles/cmTC_706b0.dir/CMakeCXXCompilerABI.cpp.o"  -o cmTC_706b0 
+arm-linux-gnueabihf-g++.exe: error: CMakeFiles/cmTC_706b0.dir/CMakeCXXCompilerABI.cpp.o : No such file or directory
+Using built-in specs.
+COLLECT_GCC=D:\ProgramFiles\intelFPGA\18.1\embedded\ds-5\sw\gcc\bin\arm-linux-gnueabihf-g++.exe
+COLLECT_LTO_WRAPPER=d:/programfiles/intelfpga/18.1/embedded/ds-5/sw/gcc/bin/../libexec/gcc/arm-linux-gnueabihf/4.8.3/lto-wrapper.exe
+Target: arm-linux-gnueabihf
+Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.8-2014.04/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --enable-multilib --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --with-float=hard
+Thread model: posix
+gcc version 4.8.3 20140401 (prerelease) (crosstool-NG linaro-1.13.1-4.8-2014.04 - Linaro GCC 4.8-2014.04) 
+arm-linux-gnueabihf-g++.exe: fatal error: no input files
+compilation terminated.
+make.exe[1]: *** [cmTC_706b0] Error 1
+make.exe[1]: Leaving directory `D:/ProgramFiles/intelFPGA/18.1/hld/board/terasic/de1_soc/tests/DE1_nnom_mnist/build_GCC_armlinux_debug/CMakeFiles/CMakeTmp'
+make.exe: *** [cmTC_706b0/fast] Error 2
+
+
+
+
